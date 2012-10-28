@@ -1,17 +1,84 @@
-.htaccess
-wp-*.php
-xmlrpc.php
-wp-admin/
-wp-includes/
-wp-content/uploads/
-wp-content/blogs.dir/
-wp-content/upgrade/*
-wp-content/backup-db/*
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-wp-content/cache/*
-wp-content/cache/supercache/*
-sitemap.xml
-sitemap.xml.gz
-readme.html
-license.txt
+# for wordpress #
+###################
+
+moro_wp/.htaccess
+moro_wp/wp-*.php
+moro_wp/xmlrpc.php
+moro_wp/wp-admin/
+moro_wp/wp-includes/
+moro_wp/wp-content/uploads/
+moro_wp/wp-content/blogs.dir/
+moro_wp/wp-content/upgrade/*
+moro_wp/wp-content/backup-db/*
+moro_wp/wp-content/advanced-cache.php
+moro_wp/wp-content/wp-cache-config.php
+moro_wp/wp-content/cache/*
+moro_wp/wp-content/cache/supercache/*
+moro_wp/sitemap.xml
+moro_wp/sitemap.xml.gz
+moro_wp/readme.html
+moro_wp/license.txt
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+bin/*
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.age
+*.sql
+*.sqlite
+*.sqlite3
+*.hsh
+db/schema.rb
+log/*
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Media source files #
+######################
+*.psd
+*.ai
+*.eps
+
+# Process and Socket files #
+############################
+*.pid
+*.sock
+*.ipc
+
+# Keys #
+########
+*.pem
+config/keys/*
+
+# Others #
+######################
+
+tmp/
