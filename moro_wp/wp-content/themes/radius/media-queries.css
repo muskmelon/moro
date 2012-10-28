@@ -1,0 +1,863 @@
+/*  iPhone Size Styling  */
+
+@media only screen and (max-width:750px) { 
+	/* ===[ Header Styles ]===================================================== */
+
+	.main-wrapper {
+	    width: 100%;
+	    overflow: hidden;
+	}
+
+	.header-wrapper {
+
+	}
+
+	.header {
+	    padding: 5px 10px 10px 10px;
+	    width: 300px;
+	}
+
+	.header-left {
+	    float: left;
+	    margin-left: 6px;
+	    margin-bottom: 0;
+	}
+	
+	.hide-clear {
+		display: block;
+	}
+	
+	.menu-header-container { text-align: center }
+
+	.page-title h2 {
+	    margin-bottom: 0px;
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+
+	.page-title h3 {
+	    font-size: 14px;
+	    line-height: 18px;
+	    margin-top: 10px;
+	}
+
+	.title-meta h2 { font-size: 20px }
+
+	/* ===[ Navigation Styles ]===================================================== */
+
+	.select-menu,
+	.select { display: block }
+
+	#nav { display: none }
+
+	.header-right { position: relative }
+
+	.select-menu {
+	    width: 100%;
+	    margin: 25px 0 5px 0;
+	}
+
+	/* all form DIVs have position property set to relative so we can easily position newly created SPAN */
+
+	.header-right form div { position: relative }
+
+	/* setting the width and height of the SELECT element to match the replacing graphics */
+
+	.header-right select.select-menu {
+	    position: relative;
+	    z-index: 10;
+	    width: 300px !important;
+	    height: 41px !important;
+	    line-height: 26px;
+	}
+
+	.header-right select.select-menu:hover { cursor: pointer }
+
+	/* dynamically created SPAN, placed below the SELECT */
+
+	.header-right span.select {
+	    position: absolute;
+	    bottom: 0;
+	    float: left;
+	    left: 0;
+	    width: 300px;
+	    height: 41px;
+	    text-align: left;
+	    line-height: 42px;
+	    font-family: 'Oswald', Helvetica Neue, Helvetica, sans-serif;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	    color: #eaeaea;
+	    text-shadow: 0px -1px #222;
+	    text-indent: 10px;
+	    background: url(images/select.png) no-repeat center;
+	    cursor: default;
+	    z-index: 1;
+	    padding-left: 85px;
+	    margin-left: -42px;
+	}
+
+	/* ===[ Homepage Section Styles ]===================================================== */
+
+	.container { width: 300px }
+
+	#sections-wrap {
+	    margin: 0 !important;
+	    padding: 30px 0 0px 0 !important;
+	}
+
+	#sections { width: 300px }
+
+	.section {
+	    padding: 30px 0;
+	    margin: 0;
+	    width: 300px;
+	    border-bottom: 1px dashed #e6e6e6;
+	}
+
+	.section:after {
+	    margin: 0;
+	    padding: 0;
+	    display: none;
+	}
+
+	.section .column {
+	    width: 300px;
+	    margin-right: 0;
+	}
+
+	.services-wrap { width: 300px }
+
+	.section-widget-wrap { width: 300px }
+
+	.section-title {
+	    letter-spacing: 2px;
+	    font-size: 13px;
+	}
+
+	.mid-left { width: 300px }
+
+	.mid-right {
+	    width: 300px;
+	    margin-top: 15px;
+	}
+
+	.mid-right iframe { margin: 0 auto }
+
+	.home-portfolio { width: 300px }
+
+	.home-portfolio-left { 
+		width: 300px;
+		margin-bottom: 20px;
+	}
+	
+	.home-portfolio-left > .tabs a {
+		width: 130px;
+	}
+
+	.home-portfolio-right {
+	    float: right;
+	    width: 300px;
+	    margin-top: 15px;
+	}
+
+	.home-portfolio-right img {
+	    width: 148px;
+	    height: auto;
+	}
+
+	.home-portfolio-item-wrap { width: 318px }
+
+	.home-portfolio-item { 
+		width: 139px;
+		height: 119px;
+	}
+
+	/* ===[ Content Styles ]===================================================== */
+
+	.page-template-full-width-php .content {
+	    width: 270px !important;
+	    padding: 15px;
+	}
+
+	.page-template-blog-php .content,
+	.single .content,
+	.search .content,
+	.archive .content { width: 300px !important }
+
+	.content {
+	    width: 270px;
+	    margin-bottom: 25px;
+	    margin-top: 30px;
+	    padding: 15px;
+	}
+
+	.content-full {
+	    width: 300px !important;
+	    margin-bottom: 20px;
+	    margin-top: 30px;
+	    padding: 0px;
+	}
+
+	.content:before,
+	.content-full:before { width: 287px !important }
+
+	/* ===[ Homepage Slider Styles ]===================================================== */
+
+	#header-slider { min-height: 100px !important }
+	
+	.header-slider-sized {
+		width:300px !important;
+		margin: 50px auto 35px auto !important;
+	}
+
+	.showcase-title h2 a { width: 300px }
+
+	.showcase-title h2 {
+	    font-size: 18px;
+	    line-height: 24px;
+	    letter-spacing: 0;
+	    padding: 8px 10px 10px 10px;
+	    margin-bottom: 10px;
+	}
+
+	.showcase-meta ul { margin-bottom: 0 }
+
+	.showcase-meta li {
+	    font-size: 9px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	}
+
+	.showcase-more { margin-top: 10px }
+
+	.showcase-info { top: 32% }
+
+	.flex-direction-nav li a { top: 42% !important }
+
+	.showcase-info-open { top: 17% }
+
+	.showcase-text {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	.showcase-text p {
+	    width: 300px;
+	    display: none;
+	}
+
+	/* ===[ Portfolio Styles ]===================================================== */
+
+	.portfolio-full {
+	    width: 300px;
+	    margin-top: 15px;
+	}
+
+	.portfolio-item-wrap {
+	    width: 300px;
+	    margin-bottom: 15px;
+	}
+
+	.portfolio-item { padding: 10px 12px }
+
+	.portfolio-sidebar {
+	    margin: 5px 0 25px 15px;
+	    float: left;
+	    width: 300px;
+	}
+
+	.portfolio-meta {
+	    float: left;
+	    width: 300px;
+	}
+
+	#portfolio-slider { width: 300px }
+
+	.mobile-slide {
+	    display: block !important;
+	    margin: 0 0 25px 2px !important;
+	}
+
+	.box-portfolio li li { margin: 0 0 25px 2px }
+
+	.box-portfolio li li:hover {
+
+	}
+
+	#portfolio-slider .flex-control-nav { width: 300px !important }
+
+	.portfolio-big-slide { display: none }
+
+	.portfolio-big-title {
+	    text-align: center;
+	    margin-bottom: 35px;
+	    padding: 0;
+	}
+
+	.portfolio-big-title h2 {
+	    margin-bottom: 10px;
+	    line-height: 26px;
+	}
+
+	.flex-direction-nav { display: none }
+
+	.post-nav {
+	    clear: both;
+	    position: static;
+	    border-top: solid 1px #eee;
+	    margin-top: 15px;
+	}
+
+	.post-nav a { margin: 0 }
+
+	.post-nav .prev-span {
+	    float: right;
+	    width: 100%;
+	}
+
+	.post-nav .next-span {
+	    float: left;
+	    width: 100%;
+	}
+
+	.single .page-title h3 { margin-bottom: 30px }
+
+	.filter-bar { display: none }
+
+	.portfolio-nav-mobile {
+	    display: block;
+	    float: left;
+	    width: 280px;
+	    padding: 10px;
+	    margin-bottom: 15px;
+	    background: white;
+	    box-shadow: rgba(0,0,0, 0.07) 0px 1px 2px;
+	    -moz-box-shadow: rgba(0,0,0, 0.07) 0px 1px 2px;
+	    -webkit-box-shadow: rgba(0,0,0, 0.07) 0px 1px 2px;
+	}
+
+	.nav-right-mobile { float: right }
+
+	.nav-left-mobile { float: left }
+	
+	.sized { width: 300px; }
+
+	/* ===[ Blog Styles ]===================================================== */
+
+	.blog-post {
+	    margin-bottom: 55px;
+	    padding-bottom: 0px;
+	}
+
+	.blog-post:last-child { margin-bottom: 0px !important }
+
+	.content .blog-text { width: 100% }
+
+	.blog-meta {
+	    background: #f7f7f7;
+	    width: 250px;
+	    margin: 0;
+	    padding: 10px;
+	}
+
+	.blog-post .portfolio-meta {
+	    display: block;
+	    padding: 10px;
+	}
+
+	.meta-links {
+
+	}
+
+	.blog-meta > ul > li {
+	    border-bottom: solid 1px #eee;
+	    margin-bottom: 4px;
+	    padding-bottom: 4px;
+	}
+
+	.post-share {
+	    padding: 0;
+	    margin-top: 15px;
+	}
+
+	.post-share .twitter,
+	.post-share .facebook,
+	.post-share .googleplus { width: auto }
+
+	.post-share li {
+	    border-bottom: none !important;
+	    margin: 0 !important;
+	    padding-bottom: 0px !important;
+	}
+
+	.blog-inside { padding: 15px }
+
+	.blog-post:before { width: 285px }
+
+	img.alignright, img.alignleft { float: none; margin: 0; }
+
+	.wp-caption.alignright, .wp-caption.alignleft, .wp-caption.aligncenter, .wp-caption.alignnone { 
+		margin: 5px 0 20px 0px; 
+		width: 100% !important;
+	}
+	/* ===[ Social Dashboard Styles ]===================================================== */
+
+	.page-template-social-php .page-title { text-align: center }
+
+	.social-wrap { width: 300px }
+
+	.social-wrap-row { margin-bottom: 0px }
+
+	.social-widget {
+	    margin-bottom: 45px;
+	    margin-left: 15px;
+	}
+
+	/* ===[ Sidebar Styles ]===================================================== */
+
+	#sidebar-wrap { float: left }
+
+	#sidebar {
+	    background: rgba(0,0,0, .04);
+	    padding: 28px 43px 0px 43px;
+	    margin: 0 0 40px 0;
+	}
+
+	.tab-wrapper li a { background: #eee }
+
+	#sidebar .flexslider { background: #f7f7f7 }
+
+	/* ===[ Footer Styles ]===================================================== */
+
+	.footer-widgets { width: 300px }
+
+	.footer-widgets-wrap { width: 300px }
+
+	.footer-widget {
+	    width: 300px;
+	    padding-top: 20px;
+	}
+
+	.footer-text { width: 300px }
+
+	.footer-text-left ul {
+	    text-align: center;
+	    line-height: 18px;
+	    float: none;
+	}
+
+	.footer-text-left ul li {
+	    float: none;
+	    margin: 0 0 0 0;
+	    white-space: nowrap;
+	}
+
+	.footer-text-left ul li a {
+	    text-transform: none;
+	    font-size: 11px;
+	}
+
+	.footer-text-left { width: 300px }
+
+	.footer-text-right {
+	    text-align: center;
+	    width: 100%;
+	}
+
+	.nav-footer { text-align: center }
+
+	.copyright { margin-top: 15px }
+
+	/* ===[ Comment Styles ]===================================================== */
+
+	.comments {
+	    margin: 0 0px 25px 0px;
+	    width: 280px;
+	    padding: 25px 10px 35px 10px;
+	}
+
+	.comments:before { width: 285px }
+
+	.commentlist li { margin: 0 -10px 30px -10px !important }
+
+	.vcard {
+	    width: 250px;
+	    float: left;
+	}
+
+	#respond { padding: 0 }
+
+	#respond input[type="text"],
+	#respond textarea {
+	    box-sizing: border-box;
+	    width: 100%;
+	}
+
+	#cancel-comment-reply { float: none }
+
+	h3#comments {
+	    margin: -25px -10px 25px -10px !important;
+	    font-size: 16px;
+	}
+
+	/* ===[ Shortcode Styles ]===================================================== */
+
+	.one-third,
+	.one-half,
+	.one-quarter,
+	.one-third-last,
+	.one-half-last,
+	.one-quarter-last,
+	.two-third,
+	.two-third-last { width: 100% !important }
+
+	.demo-button { width: 280px }
+}
+
+/*  iPad Size Styling  */
+
+@media screen and (min-width:751px) and (max-width:970px) { 
+	/* ===[ Header Styles ]===================================================== */
+
+	.main-wrapper { overflow-x: hidden }
+
+	.header { width: 670px }
+
+	.header-left { float: none }
+
+	.header-left h1 { padding: 5px 0 }
+
+	.header-right { margin-top: 20px }
+
+	/* ===[ Navigation Styles ]===================================================== */
+
+	.menu-header-container { border-left: dotted 1px rgba(255,255,255, .1) }
+
+	#nav > li {
+	    float: none;
+	    display: inline-block;
+	    margin-right: -4px;
+	    margin-top: 0;
+	}
+
+	#nav {
+	    clear: both;
+	    float: none;
+	    margin: 0 -9999px 0 -9999px;
+	    padding: 0 9999px 0 9999px;
+	    box-shadow: rgba(0,0,0, 0.4) 0px -7px 7px -7px;
+	    -moz-box-shadow: rgba(0,0,0, 0.4) 0px -7px 7px -7px;
+	    -webkit-box-shadow: rgba(0,0,0, 0.4) 0px -7px 7px -7px;
+	}
+
+	#nav li:first-child { margin-left: -1px }
+
+	#nav li.entypo {
+	    float: right;
+	    border-right: dotted 1px rgba(0,0,0, .3);
+	}
+
+	#nav li.entypo.current-menu-item { height: 47px }
+
+	#nav > li.current-menu-item.entypo { padding-bottom: 19px }
+
+	.page-template-full-width-php .sidebar-toggle,
+	.page-template-portfolio-php .sidebar-toggle,
+	.home .sidebar-toggle,
+	.page-template-social-php .sidebar-toggle { display: none !important }
+
+	#nav .sidebar-toggle {
+	    float: right;
+	    display: block;
+	    box-shadow: inset rgba(0,0,0, 0.2) 0px -20px 30px -5px;
+	    -moz-box-shadow: inset rgba(0,0,0, 0.2) 0px -20px 30px -5px;
+	    -webkit-box-shadow: inset rgba(0,0,0, 0.2) 0px -20px 30px -5px;
+	    padding: 0 10px;
+	    height: 66px;
+	    border-left: dotted 1px rgba(0,0,0, .3);
+	    border-right: dotted 1px rgba(255,255,255, .06);
+	    position: relative;
+	}
+
+	#nav .sidebar-toggle:hover { background: rgba(0,0,0, .04) }
+
+	#nav .sidebar-toggle a {
+	    border: 0 !important;
+	    font: 0/0 a !important;
+	    color: transparent !important;
+	    background-color: transparent !important;
+	    position: relative;
+	    margin-top: 27px;
+	}
+
+	#nav .sidebar-toggle a:after {
+	    content: "@";
+	    font-family: 'EntypoRegular';
+	    font-size: 44px;
+	    color: #fff;
+	    position: absolute;
+	    left: 0px;
+	    margin-top: -5px;
+	}
+
+	/* ===[ Homepage Slider Styles ]===================================================== */
+
+	.showcase-title h2 a { width: 670px }
+
+	.showcase-title h2 {
+	    letter-spacing: -1px;
+	    font-size: 38px;
+	    line-height: 42px;
+	}
+
+	.showcase-meta li {
+	    font-size: 10px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	}
+
+	.showcase-info { top: 39% }
+
+	.flex-direction-nav li a { top: 42% !important }
+
+	.showcase-info-open { top: 17% }
+	
+	.header-slider-sized .showcase-info-open {
+		top:8%;
+	} 
+	
+	.showcase-text {
+	    font-size: 15px;
+	    line-height: 24px;
+	}
+
+	.showcase-text p { 
+		width: 620px; 
+		font-size: 18px;
+    	line-height: 30px;	
+	}
+
+	/* ===[ Section Styles ]===================================================== */
+
+	.container { width: 670px }
+
+	#sections { width: 670px }
+
+	.section .column-wrap:hover { background: url(images/box-hover2.png) no-repeat bottom left }
+
+	.section .column:before { width: 198px }
+
+	.section-widget-wrap { width: 693px }
+
+	.column-wrap { width: 206px !important }
+
+	/* ===[ Homepage Mid Styles ]===================================================== */
+
+	.mid-left { width: 355px }
+
+	/* ===[ Homepage Portfolio Styles ]===================================================== */
+
+	.home-portfolio-left { width: 225px }
+	
+	.home-portfolio-left > .tabs a {
+		width: 92px;
+	}
+
+	.home-portfolio-item-wrap { width: 416px }
+
+	.home-portfolio-right { width: 396px }
+
+	/* ===[ Portfolio Styles ]===================================================== */
+
+	#header-slider { min-height: 150px !important }
+	
+	.header-slider-sized {
+		width:670px !important;
+		
+	}
+
+	.filter-list { width: 590px }
+
+	.portfolio-full { width: 693px }
+
+	.portfolio-item-wrap {
+	    width: 206px;
+	    height: 170px;
+	}
+
+	.portfolio-item:before { width: 195px }
+
+	.portfolio-item-wrap:hover { background: url(images/box-hover2.png) no-repeat bottom left }
+	
+	.sized { width: 670px; }
+
+	/* ===[ Sidebar Styles ]===================================================== */
+
+	#sidebar-wrap {
+	    position: fixed;
+	    right: -305px;
+	    top: -52px;
+	    z-index: 9999;
+	    -webkit-overflow-scrolling: touch;
+	}
+
+	.show-sidebar { right: 295px !important }
+	
+	body.sidebar-panel-open {
+	    overflow: hidden;
+	}
+
+	#sidebar {
+	    background: #fff;
+	    padding: 40px;
+	    height: 450px;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	    width: 215px;
+	    box-shadow: rgba(0,0,0, 0.3) 0px 0px 4px;
+	    -moz-box-shadow: rgba(0,0,0, 0.3) 0px 0px 4px;
+	    -webkit-box-shadow: rgba(0,0,0, 0.3) 0px 0px 4px;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	}
+
+	#sidebar .widget { width: 215px }
+
+	#sidebar-mid { position: relative }
+
+	#sidebar-close,
+	#sidebar-close2 { display: block }
+
+	#sidebar-close2 {
+	    background: #EEE;
+	    float: left;
+	    width: 275px;
+	    padding: 15px 15px 15px 40px;
+	    margin: -38px 0 25px -40px;
+	    color: #777;
+	    font-family: 'Oswald', Helvetica Neue, Helvetica, sans-serif;
+	    font-weight: 300;
+	    font-size: 20px;
+	}
+
+	#sidebar-close2:hover { background: #ddd }
+
+	#sidebar-close2 span {
+	    color: #bbb;
+	    padding-right: 5px;
+	}
+
+	.show-sidebar #sidebar {
+	    background: url(images/texture.jpeg);
+	    height: 100%;
+	}
+
+	.show-sidebar #sticky { position: relative !important }
+
+	.show-sidebar #sidebar {
+	    position: fixed;
+	    padding-bottom: 15px !important;
+	}
+
+	/* ===[ Content Styles ]===================================================== */
+
+	.content {
+	    -webkit-transition: .2s ease-in;
+	    -moz-transition: .2s ease-in;
+	    -o-transition: .2s ease-in;
+	    transition: .2s ease-in;
+	    width: 630px;
+	}
+
+	.content:before { width: 655px }
+
+	.page-template-blog-php .content,
+	.single .content,
+	.search .content,
+	.archive .content { width: 670px }
+
+	.content-portfolio .content { width: 430px !important }
+
+	.content-full { width: 630px !important }
+
+	.content-full:before { width: 655px !important }
+
+	.content-fade {
+	    opacity: .2;
+	    -webkit-transition: .2s ease-in;
+	    -moz-transition: .2s ease-in;
+	    -o-transition: .2s ease-in;
+	    transition: .2s ease-in;
+	}
+
+	.content-fade-off {
+	    opacity: 1;
+	    -webkit-transition: .2s ease-in;
+	    -moz-transition: .2s ease-in;
+	    -o-transition: .2s ease-in;
+	    transition: .2s ease-in;
+	}
+
+	/* ===[ Blog Styles ]===================================================== */
+
+	.content-portfolio .blog-post:before { width: 415px }
+
+	.blog-post:before { width: 655px }
+
+	.blog-text { width: 495px }
+
+	.comments { width: 640px }
+
+	.comments:before { width: 654px }
+
+	/* ===[ Dashboard Styles ]===================================================== */
+
+	.social-wrap { width: 675px }
+
+	.social-widget { width: 180px }
+
+	.wpinstagram-wrap { height: 160px }
+
+	.wpinstagram-wrap:before { width: 170px }
+
+	.wpinstagram img { max-width: 160px }
+
+	.dribbbles li img { width: 72px }
+
+	.flickr-photos li {
+	    width: 72px;
+	    height: 54px;
+	}
+
+	.flickr-photos li img { min-height: 54px }
+
+	.page-template-social-php .content .twitter-box {
+	    font-size: 17px;
+	    line-height: 30px;
+	}
+
+	.recent-photos li img {
+	    width: 72px;
+	    height: auto;
+	}
+
+	/* ===[ Footer Styles ]===================================================== */
+
+	.footer-widgets { width: 670px }
+
+	.footer-widgets-wrap { width: 695px }
+
+	.footer-widget { width: 141px }
+
+	.footer-text { width: 670px }
+
+	.footer-text-left { width: 400px }
+
+	.footer-text-right {
+	    float: left;
+	    margin-left: 5px;
+	}
+}

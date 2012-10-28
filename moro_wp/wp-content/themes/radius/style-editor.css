@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url('http://themes.googleusercontent.com/static/fonts/oswald/v4/HqHm7BVC_nzzTui2lzQTDbO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Oswald '), local('Oswald'), url('http://themes.googleusercontent.com/static/fonts/oswald/v4/qpy-UiLNKP-VfOdbcs6r6-vvDin1pK8aKteLpeZ5c0A.woff') format('woff');
+}
+
+
+.mceContentBody h1, .mceContentBody h2, .mceContentBody h3, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 {
+	font-size: 100%;
+    font-family: 'Oswald', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    color: #4c4c4c;
+}
+
+.mceContentBody h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+.mceContentBody h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5,
+.mceContentBody h6 {
+   line-height: 28px;
+    margin-bottom: 12px;
+}
+.mceContentBody h3 { font-size: 18px }
+.mceContentBody h4 { font-size: 16px }
+.mceContentBody h5 { font-size: 14px }
+.mceContentBody h6 {
+    font-size: 13px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+
+.mceContentBody {
+	font: 13px/20px 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666;
+    width: 660px;	
+}
+
+.mceContentBody p {
+	margin-bottom: 15px 
+}
+
+.mceContentBody blockquote p {
+	position: relative;
+    font-family: 'Oswald', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #999;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: right;
+    padding: 10px 15px 10px 50px;
+    border-right: solid 10px #f0f0f0;
+}
+
+.mceContentBody ul {
+	margin: 0 0 20px 0;
+}
+
+.mceContentBody li {
+	background: url(images/arrow-bullet.png) no-repeat left 9px;
+    padding-left: 14px;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.mceContentBody ol {
+	 margin: 0 0 20px 0;
+}
+.mceContentBody ol li {
+	list-style-type: decimal;
+	background: none;
+	padding-left: 0px;
+	margin-bottom: 5px;
+	margin-left: 14px;
+}
+
+.intro {
+	color: #979797;
+    font-size: 20px;
+    font-family: 'Oswald', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 15px;
+    border-top: dashed 1px #e6e6e6;
+    border-bottom: dashed 1px #e6e6e6;
+    padding: 10px 0;
+}
+
+.highlight {
+	background: #fff890;
+    color: #222;
+    width: auto;
+    display: inline;
+    padding: 2px 3px;
+    font-weight: normal;
+}
+
+hr {
+	margin: 20px 0 20px;
+    border: 0;
+    border-bottom: 1px dashed #e6e6e6;
+    height: 1px;
+}
