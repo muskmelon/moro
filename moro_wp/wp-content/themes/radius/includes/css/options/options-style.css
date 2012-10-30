@@ -1,0 +1,32 @@
+.okay-themes {
+	text-align: center;
+}
+
+.okay-themes li {
+	display: inline-block;
+	float: left;
+	margin:0 25px 25px 0;
+}
+
+.okay-themes li img {
+	max-width: 224px;
+	margin-bottom: 10px;
+}
+
+.okay-themes li img:hover {
+	opacity: .9;
+}
+
+.okay-themes li a {
+	color: #6CB07A;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.okay-themes li a:hover {
+	color: #777;
+}
+
+.okay-text {
+	line-height: 20px;
+}

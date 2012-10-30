@@ -1,0 +1,33 @@
+.showcase-info {
+	background: #666;
+}
+
+.portfolio-nav {
+	margin-top:-20px;
+}
+
+.tab-wrapper li a span {
+	display: none;
+}
+
+.tooltip span {
+	display: none;
+}
+
+.vcard {
+	width: 100%;
+}
+
+.dribbble-img {
+	float: left;
+	width:125px;
+}
+
+.recent-photos li img {
+	max-width: none;
+}
+
+.wpinstagram img {
+	height: 250px;
+	max-width:250px;
+}
