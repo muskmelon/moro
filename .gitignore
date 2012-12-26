@@ -15,11 +15,11 @@ moro_wp/wp-content/wp-cache-config.php
 moro_wp/wp-content/cache/*
 moro_wp/wp-content/cache/supercache/*
 moro_wp/wp-content/plugins/*
-moro_wp/wp-content/plugins/*/*
 moro_wp/sitemap.xml
 moro_wp/sitemap.xml.gz
 moro_wp/readme.html
 moro_wp/license.txt
+moro_wp/wp-content/themes/*
 
 # Compiled source #
 ###################
