@@ -1,4 +1,3 @@
-<base href="http://localhost/moro/moro_wp/" />
 <?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
