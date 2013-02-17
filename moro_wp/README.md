@@ -7,4 +7,6 @@ Support Forum
   http://okaythemes.tenderapp.com/discussions/radius-wordpress-theme
 
   # Setup UP 
-  http://okaythemes.tenderapp.com/kb/theme-documentation/radius-wordpress-theme
+  https://okaythemes.tenderapp.com/kb/theme-documentation/radius-wordpress-theme
+  http://themes.okaythemes.com/docs/radius/
+  http://vimeo.com/38336799
